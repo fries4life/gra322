@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-family: "Courier New", serif;
+    font-weight: 80pt;
+    line-height: 2;
+
+    p {
+        color: #707070
+        margin: 2rem;
+        
+    }
