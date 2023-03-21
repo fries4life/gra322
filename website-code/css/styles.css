@@ -1,0 +1,198 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    color: #082628;
+}
+
+header {
+    background-image: url('../img/header.jpg');
+    background-size: cover;
+    height: 120vh;
+}
+
+.inner {
+    margin: 0 auto;
+    max-width: 1240%;  
+}
+
+nav {
+    display: none;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+    padding: 1rem 1rem 1rem 2rem;
+    color: #328186;
+}
+
+.menu-button {
+    border: 4px solid transparent;
+    background: #BDECEC;
+    padding: 1rem 2rem 1rem 1rem;
+    color: #328186;
+}
+
+.menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background: #BDECEC;
+}
+
+.intro {
+    padding: 30rem 1rem 1rem 2rem;
+}
+
+.our-mission {
+    background: #ffffff;
+    padding: 2rem;
+}
+
+.our-mission p {
+    color: #328186;
+    margin: 1rem 0 1rem 2rem;
+}
+
+.our-mission h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #328186;
+}
+
+.all-natural-toothbrushes {
+    background: #ffffff;
+    padding: 2rem;
+}
+
+.all-natural-toothbrushes h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #328186;
+    margin-bottom: 3.5rem;
+}
+
+.all-natural-toothbrushes figure{
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+.all-natural-toothbrushes figcaption{
+    margin-top: 1rem;
+    font-size: 24px;
+    font-weight: 500;
+    color: #328186;
+}
+
+.all-natural-sustainable-toothpaste {
+    background: #F2FFFF;
+    padding: 2rem;
+}
+
+.all-natural-sustainable-toothpaste h4 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #328186;
+    margin-bottom: 3.5rem;
+    margin-left: 0rem; 
+}
+
+.all-natural-sustainable-toothpaste figure{
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+.all-natural-sustainable-toothpaste p {
+    color: #328186;
+    margin: 1rem 0 1rem 2rem;
+}
+
+.about-us {
+    background: #;
+    padding: 2rem;
+}
+
+.about-us p {
+    color: #328186;
+    margin: 1rem 0 1rem 2rem;
+}
+
+h5 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #328186;
+}
+
+.contact-us {
+    background: #F2FFFF;
+    padding: 2rem;
+}
+
+.contact-us p {
+    margin: 1rem 0 1rem 0rem;
+}
+
+.contact-us h6 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 1rem;
+}
+
+footer {
+    background: #BDECEC;
+    padding: 2rem;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .copyright {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+  }
+
+@media screen and (min-width: 800px) {
+    .menu-button {
+        display:none;
+    }
+
+    .nav{
+        display: block;
+    }
+
+    .nav ul{
+        display: flex;
+        gap: 2rem;
+    }
+
+    .intro {
+        max-width: 450px;
+    }
+
+    .our-mission .inner {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .work-grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .all-natural-sustainable-toothpaste .two-column{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .about-us .inner {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
