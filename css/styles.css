@@ -5,30 +5,19 @@
 body {
   font-family: 'Inter', sans-serif;
   background: #F4C5F2;
-
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 70px;
   color:#707070; 
   padding: 1rem;
+  padding-left: 2rem;
   margin-top: 5rem;
-  margin-left: 2rem;
-}
-
-.ul {
-  font-size: 35px;
-  color: #707070;
-  margin-left: 2rem;
 }
 
 footer {
-  font-size: 35px;
-  color: #707070;
+  background: #B2E3EB;
   padding: 1rem;
-  margin-left: 2rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  background-color: #B2E3EB;
-
+  padding-left: 2rem;
+  text-size: 20pt;
 }
