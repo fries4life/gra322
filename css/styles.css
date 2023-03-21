@@ -10,9 +10,19 @@ body {
 h1 {
   font-size: 70px;
   color:#707070; 
-  padding: 1rem;
-  padding-left: 2rem;
-  margin-top: 5rem;
+  margin-top: 8rem;
+}
+
+.inner {
+  color:#707070; 
+  padding-left:2.5rem;
+}
+
+.project-name {
+  margin-top: 15rem;
+  padding-left: 12rem;
+  padding-bottom: 6rem;
+
 }
 
 footer {
@@ -20,4 +30,5 @@ footer {
   padding: 1rem;
   padding-left: 2rem;
   text-size: 20pt;
+  margin-bottom: 0rem;
 }
