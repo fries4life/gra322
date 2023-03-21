@@ -19,9 +19,8 @@ h1 {
 }
 
 .project-name {
-  margin-top: 15rem;
-  padding-left: 12rem;
-  padding-bottom: 6rem;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
 
 }
 
@@ -32,3 +31,14 @@ footer {
   text-size: 20pt;
   margin-bottom: 0rem;
 }
+
+@media screen and (min-width: 800px) {
+  .project-name {
+    margin-top: 15rem;
+    padding-left: 12rem;
+    padding-bottom: 6rem;
+  }
+
+  .footer {
+    position: relative;
+  }
