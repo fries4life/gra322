@@ -24,7 +24,7 @@ Core Elements and typography
 h1 {
     font-size: 42px;
     font-weight: 700;
-    margin: 25rem 1rem 1rem 1rem;
+    margin: 20rem 1rem 1rem 1rem;
     background-color: rgba(255, 255, 255, .8);
     padding-left: 1rem;
 
@@ -81,6 +81,18 @@ img {
     padding-left: 2rem;
     margin-bottom: 1rem;
     margin-top: 3rem;
+    margin-right: 5rem;
+
+}
+
+.container2 {
+    
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    margin-right: 5rem;
+    margin-bottom: 8rem;
 
 }
 
@@ -129,7 +141,7 @@ img {
 
 .inner p {
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 
@@ -139,13 +151,14 @@ Navigation styles
 */
 
 .nav-active {
-    color: gray;
+    color: black;
 }
 
 nav {
     display: none;
-    background-color: #D1D1D1;
-    padding: 1rem;
+    background-color:#91868E;
+    padding: 1rem, 2rem, 2rem, 3rem;
+    padding-right: 7rem;
 }
 
 nav li {
@@ -172,10 +185,22 @@ nav a {
 .menu-button {
     border: 4px solid transparent;
     padding: 1rem;
-    background: #D1D1D1;
+    background:#91868E;
     padding: 1rem;
 }
 
+
+footer {
+    background:#91868E;
+    padding: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  .inner2 a {
+    text-decoration: none;
+    color: white;
+  }
 
 
 
@@ -186,6 +211,76 @@ Single Project Template
 */
 
 .project h1 {}
+
+.recipe H2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 1rem 1rem 1rem 2rem;
+    padding-top: 3rem;
+}
+
+.recipe p {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 1rem 0rem 1rem 2rem;
+    color: #555353
+    line-height: 200%;
+}
+
+.recipe {
+    background-color: #F0F0F0;
+    margin:0;
+}
+
+
+.responsive H2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 1rem 1rem 1rem 2rem;
+    padding-top: 3rem;
+
+}
+
+.responsive p {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 1rem 1rem 1rem 2rem;
+    color: #555353
+    line-height: 300%;
+}
+
+.responsive {
+    background-color: #F0F0F0;
+    
+}
+
+.clean {
+    background-color: #F0F0F0;
+    margin-bottom: 3rem;
+}
+
+.clean p {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 1rem 1rem 1rem 2rem;
+    color: #555353
+    line-height: 300%;
+}
+
+.clean H2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 1rem 1rem 1rem 2rem;
+    padding-top: 3rem;
+}
+
+.watch a {
+    text-decoration: none;
+    color:#555353
+
+}
+
+
 
 /*
 Home Page Template
@@ -198,7 +293,27 @@ Home Page Template
 Home Page Template, tablet and desktop styles
 */
 
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+
+    .responsive H2 {
+        font-size: 40px;
+        font-weight: 700;
+        margin: 1rem 1rem 1rem 30rem;
+        padding-top: 3rem;
+    
+    }
+}
+
+@media screen and (max-width: 00px) {
+
+    .responsive H2 {
+        font-size: 40px;
+        font-weight: 700;
+        margin: 1rem 1rem 1rem 30rem;
+        padding-top: 3rem;
+    
+    }
+}
 
 
 @media screen and (min-width: 800px) {
@@ -232,6 +347,37 @@ Home Page Template, tablet and desktop styles
         gap: 2rem;
         grid-template-columns: 1fr 1fr;
     }
+
+    .workk-grid {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+        margin-right: 5rem;
+    }
+
+    .workkk-grid {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+        margin-right: 5rem;
+    }
+
+    .workkkk-grid {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+        margin-right: 5rem;
+    }
+
+    .responsive H2 {
+        font-size: 40px;
+        font-weight: 700;
+        margin: 1rem 1rem 1rem 42rem;
+        padding-top: 3rem;
+    
+    }
+
+    
 
 
 
